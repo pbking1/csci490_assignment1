@@ -40,6 +40,14 @@
     - http://webmaster.iu.edu/tools-and-guides/mysql/mysql-setup-guide-old.phtml
 - After that import the create_table.sql schema into the database
 
+####FAQ
+- Where is the porject located in the server?
+    - The project is located in the webserve.iu.edu:~/www
+    - use the command "ssh scimap@webserve.iu.edu" to login
+
+- how to access the web page after deploying the project?
+    - go to "www.iu.edu/~scimap"
+
 ####future work
 - 1.Add more search option
 - 2.Search through more table
