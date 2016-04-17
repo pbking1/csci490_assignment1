@@ -13,7 +13,11 @@
     $input_field = "";
     for($i = 0; $i < $totalline; $i++){
         if($i !== 0){
-            $logic_sym = " ".strtolower($_POST["logic_sym".$i])." ";
+            if(strpos($logic_sym, 'NOT') !== false){
+                continue;
+            }else{
+                $logic_sym = " ".strtolower($_POST["logic_sym".$i])." ";
+            }    
         }
 
         $name_field =  $_POST["name_field".$i];
