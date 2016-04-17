@@ -184,6 +184,7 @@
                                         </select>
                                         <input type="text" name="inputfield0">
                                         <input type="button" value="Add field" onClick="addfield('multiinput')" />
+                                        <input type="hidden" name="ct" value="1" />
                                         <input type="submit">
                                     </div>
                                 </form>
